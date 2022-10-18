@@ -362,7 +362,9 @@ body {
     height: 1px;
     background-color: #fff;
     width: 100%;
+    transition: transform 0.2s;
   }
+
   .mobile-menu-line:nth-child(2) {
     width: 80%;
   }
@@ -447,5 +449,15 @@ body {
   }
   .social-links .vk-icon {
     margin-right: 0.9375rem;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
   }
 }
