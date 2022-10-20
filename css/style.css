@@ -94,6 +94,14 @@ body {
   padding: 0;
   padding-left: 3.2rem;
   margin: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .header-nav-item:not(:last-child) {
   margin-right: 4.5%;
@@ -102,8 +110,24 @@ body {
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
 }
-
+.header-nav-link::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  background: #5c8ee5;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+.header-nav-link:hover::after {
+  transform: scaleX(1);
+}
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -295,8 +319,12 @@ body {
   content: "";
   height: 0.0625rem;
   background: #5c8ee6;
-  width: 2.5rem;
+  width: 40px;
   margin-right: 1.25rem;
+  transition: width 0.2s;
+}
+.steps-link:hover:before {
+  width: 60px;
 }
 .steps-buttons {
   display: none;
@@ -313,6 +341,50 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
+}
+.card:hover .card-title {
+  color: #5c8ee5;
+}
+.card:hover {
+  border: 1px solid #5c8ee5;
+}
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+.card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  transition: color 0.2s;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 24.625rem;
+}
+.card-image {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
 
 @media (max-width: 1700px) {
@@ -364,6 +436,9 @@ body {
   }
   .steps-buttons {
     display: flex;
+  }
+  .card {
+    flex-basis: 50%;
   }
 }
 
@@ -507,6 +582,9 @@ body {
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .card {
+    flex-basis: 100%;
   }
 }
 
