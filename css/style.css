@@ -132,7 +132,7 @@ body {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 0.925rem;
   margin-right: 3.2rem;
 }
 
@@ -257,6 +257,7 @@ body {
   line-height: 120%;
   color: #292d33;
   margin-top: 1.375rem;
+  margin-bottom: 2.25rem;
 }
 
 .steps {
@@ -287,7 +288,9 @@ body {
   width: 100%;
   margin-left: 1.875rem;
 }
-
+.section-light {
+  margin-bottom: 6.625rem;
+}
 .steps-title {
   font-weight: 400;
   font-size: 1.75rem;
@@ -343,6 +346,12 @@ body {
   cursor: pointer;
 }
 
+.production {
+  margin-top: 0rem;
+}
+.production .section-title {
+  margin-bottom: 3.6875rem;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -387,6 +396,59 @@ body {
   z-index: 0;
 }
 
+.trademark-cards {
+  display: flex;
+}
+
+.trademark-card {
+  flex-basis: 50%;
+  border: 1px solid #ebebf0;
+  text-decoration: none;
+  transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
+}
+.trademark-card-logo {
+  fill: #828a99;
+  grid-area: logo;
+  transition: fill 0.2s;
+  width: 100%;
+}
+.trademark-card-title {
+  grid-area: title;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  margin: 0;
+  transition: color 0.2s;
+}
+.trademark-card-text {
+  grid-area: text;
+  margin-top: 0.625rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+.trademark-card:hover {
+  border: 1px solid #5c8ee5;
+  cursor: pointer;
+}
+
+.trademark-card:hover .trademark-card-logo {
+  fill: #5c8ee5;
+}
+
+.trademark-card:hover .trademark-card-title {
+  color: #5c8ee5;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -439,6 +501,9 @@ body {
   }
   .card {
     flex-basis: 50%;
+  }
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
 }
 
@@ -572,7 +637,11 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
   }
+  .trademark-cards {
+    flex-direction: column;
+  }
 }
+
 @media (max-width: 768px) {
   .container {
     max-width: 40rem;
@@ -597,5 +666,10 @@ body {
   }
   .header-content {
     padding-top: 2rem;
+  }
+  .trademark-card {
+    grid-template-areas:
+      "logo title"
+      "text text";
   }
 }
