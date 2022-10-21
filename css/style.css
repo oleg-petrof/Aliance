@@ -751,7 +751,21 @@ body {
   .steps-button-next {
     width: 56.4px;
   }
-
+  .production {
+    margin-bottom: 8.2rem;
+  }
+  .production .card:nth-child(2).card-title {
+    margin-bottom: 0.6rem;
+  }
+  .production .card:nth-child(2) .card-text {
+    margin-bottom: 21.2rem;
+  }
+  .production .card:nth-child(5) .card-text {
+    margin-bottom: 25.6rem;
+  }
+  .production .card:nth-child(6) .card-text {
+    margin-bottom: 22rem;
+  }
   .production .section-title {
     font-style: normal;
     font-weight: 400;
