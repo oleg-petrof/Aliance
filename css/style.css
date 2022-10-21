@@ -510,10 +510,13 @@ body {
 }
 
 .founder .company {
-  display: none;
+  display: flex;
 }
 .founder .mission {
   display: none;
+}
+.clients {
+  margin-bottom: 9.7rem;
 }
 .clients-wrapper {
   display: flex;
@@ -529,6 +532,7 @@ body {
   list-style: none;
   padding: 0;
   columns: 2 auto;
+  padding-bottom: 2rem;
 }
 
 .clients-list-item {
@@ -562,16 +566,20 @@ body {
 .clients-logo-item:nth-child(1) .clients-logo,
 .clients-logo-item:nth-child(2) .clients-logo,
 .clients-logo-item:nth-child(3) .clients-logo {
-  margin-top: 0.8rem;
-  margin-bottom: 3.1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .clients-logo-item:nth-child(4) .clients-logo,
 .clients-logo-item:nth-child(5) .clients-logo,
 .clients-logo-item:nth-child(6) .clients-logo {
-  margin-bottom: 2.9rem;
+  margin-bottom: 1.1rem;
 }
-
+.clients-logo-item:nth-child(7) .clients-logo,
+.clients-logo-item:nth-child(8) .clients-logo,
+.clients-logo-item:nth-child(9) .clients-logo {
+  margin-bottom: 1.3rem;
+}
 .clients-logo {
   max-width: 100%;
   width: 4.375rem;
@@ -585,7 +593,12 @@ body {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
-
+.blog {
+  margin-top: 0;
+}
+.blog .section-title {
+  margin-bottom: 3.5rem;
+}
 .blog-card {
   display: flex;
   position: relative;
@@ -966,6 +979,7 @@ body {
   .production .card:nth-child(6) .card-text {
     margin-bottom: 22rem;
   }
+
   .production .section-title {
     font-style: normal;
     font-weight: 400;
@@ -1076,11 +1090,19 @@ body {
     margin-top: 1.4rem;
     display: inline-block;
   }
+  .founder .company {
+    display: none;
+  }
   .clients {
     margin-top: 0;
+    margin-bottom: 8rem;
+  }
+  .clients-wrapper {
+    gap: 0.3rem;
   }
   .clients-list {
     columns: 1;
+    padding-bottom: 0rem;
   }
   .clients-logo-list {
     margin-top: 0rem;
@@ -1088,11 +1110,60 @@ body {
   .clients-logo-item {
     flex-basis: 50%;
   }
+  .clients-logo-item:last-child {
+    display: none;
+  }
+  .clients-logo-item:nth-child(1) .clients-logo,
+  .clients-logo-item:nth-child(2) .clients-logo {
+    margin-top: 1.2rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .clients-logo-item:nth-child(3) .clients-logo,
+  .clients-logo-item:nth-child(4) .clients-logo {
+    margin-top: 0.5rem;
+    margin-bottom: 2.6rem;
+  }
+  .clients-logo-item:nth-child(5) .clients-logo,
+  .clients-logo-item:nth-child(6) .clients-logo {
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+  }
+  .clients-logo-item:nth-child(7) .clients-logo,
+  .clients-logo-item:nth-child(8) .clients-logo {
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+  }
   .clients .section-title {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 120%;
     color: #292d33;
+  }
+  .blog .section-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    color: #292d33;
+    margin-bottom: 2.8rem;
+  }
+  .blog-card {
+    min-height: 16.4rem;
+    padding: 1rem;
+  }
+  .blog-card-title {
+    line-height: 117.6%;
+  }
+  .blog-card-text {
+    display: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .blog-slider-footer {
+    margin-top: 1.675rem;
   }
 }
