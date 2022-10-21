@@ -58,7 +58,11 @@ const swiperSteps = new Swiper(".steps-slider", {
     },
     // when window width is >= 1024px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 3,
     },
   },
 });
@@ -89,4 +93,14 @@ const swiper = new Swiper(".features-slider", {
       slidesPerView: 5,
     },
   },
+});
+
+const swiperBlog = new Swiper(".blog-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+  spaceBetween: 30,
 });
