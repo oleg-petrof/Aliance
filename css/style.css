@@ -37,6 +37,10 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  border-bottom: 0.0625rem solid rgba(235, 235, 240, 0.8);
+}
+.navbar-light .header-logo {
+  border-right: 0.0625rem solid rgba(235, 235, 240, 0.8);
 }
 .navbar-light .logo-light {
   display: none;
@@ -1015,6 +1019,75 @@ body {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.main-title-bg {
+  background: #f0f2f5;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  margin-top: 5.875rem;
+}
+
+.main-title-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
+}
+.main-title-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #292d33;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.grey-link {
+  color: #828a99;
+}
+.black-link {
+  color: #292d33;
+}
+.main-title-separator {
+  width: 0.975rem;
+  height: 0.125rem;
+  background-color: #828a99;
+}
+.experts {
+  margin-top: 0;
+}
+.experts .section-title {
+  margin-top: 1.475rem;
+  margin-bottom: 1.75rem;
+}
+.experts-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.experts-photo {
+  margin-top: 6.075rem;
+}
+.experts-content {
+  display: flex;
+  align-items: center;
+  max-width: none;
+  justify-content: space-between;
+  gap: 118.9px;
+  margin-top: 0;
+}
+
+.experts-wrapper {
+  padding-top: 5.8rem;
+}
+.experts .header-features-item {
+  border: 0.0625rem solid rgba(235, 235, 240, 0.6);
+}
+.experts .header-features-text {
+  color: #292d33;
+}
+.experts .slider-button-prev,
+.slider-button-next {
+  border: 1px solid rgba(235, 235, 240, 0.8);
+}
 
 @media (max-width: 1700px) {
   html {
@@ -1110,6 +1183,11 @@ body {
   .footer-menu-columns-2 {
     columns: auto;
     min-width: 27rem;
+  }
+  .experts-content {
+    max-width: none;
+
+    gap: 55.9px;
   }
 }
 
@@ -1260,8 +1338,7 @@ body {
   .cta-image {
     display: none;
   }
-  .cta-form {
-  }
+
   .cta-form-wrapper {
     margin: auto;
   }
@@ -1278,6 +1355,13 @@ body {
   .footer-phone {
     padding-left: 1rem;
     font-size: 1.1rem;
+  }
+  .experts-content {
+    gap: 55.9px;
+    max-width: none;
+  }
+  .experts-photo {
+    width: 23.75rem;
   }
 }
 @media (max-width: 768px) {
@@ -1322,6 +1406,15 @@ body {
   }
   .footer-menu-wrapper:last-child {
     margin-left: 0;
+  }
+  .experts-content {
+    max-width: none;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 2px;
+  }
+  .experts-content-wrapper {
+    justify-content: center;
   }
 }
 
