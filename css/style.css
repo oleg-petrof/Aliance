@@ -37,6 +37,14 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.5rem;
 }
 .mobile-menu {
@@ -45,7 +53,7 @@ body {
 .phone-icon {
   fill: #5c8ee6;
 }
-.logo {
+.logo-dark {
   display: none;
 }
 .logo-svg {
