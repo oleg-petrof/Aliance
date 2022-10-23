@@ -752,7 +752,12 @@ body {
 }
 .cta-form-button {
   flex-shrink: 0;
-  padding: 1.1625rem 2.75rem;
+  padding: 1.2625rem 3.15rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 160%;
+  color: #ffffff;
 }
 .notify {
   display: flex;
@@ -774,13 +779,18 @@ body {
 }
 
 .footer-top {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 3.325rem;
+  padding-bottom: 2.625rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+.footer-info:nth-child(3) {
+  padding-left: 2.1625rem;
+}
+.footer-info:nth-child(4) {
+  padding-right: 1.4625rem;
+}
 .footer-info {
   display: flex;
   align-items: center;
@@ -798,10 +808,11 @@ body {
 }
 
 .footer-logo {
-  width: 12.5rem;
-  height: 3.75rem;
+  width: 12.6rem;
+  height: 3.85rem;
 }
 .footer-phone {
+  padding-left: 6.9rem;
   font-style: normal;
   font-weight: 600;
   font-size: 2rem;
@@ -818,8 +829,8 @@ body {
   margin: none;
 }
 .footer-bottom {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 2.525rem;
+  padding-bottom: 1.4rem;
   display: flex;
 }
 .footer-menu-title {
@@ -839,7 +850,10 @@ body {
 }
 .footer-menu-columns-2 {
   columns: 20rem auto;
-  min-width: 50rem;
+  min-width: 45rem;
+}
+.footer-cosial-link:nth-child(1) {
+  padding-right: 0.7313rem;
 }
 .footer-menu-link {
   text-decoration: none;
@@ -848,9 +862,8 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
-  margin-bottom: 0.9375rem;
   display: block;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.075rem;
 }
 .footer-menu-link-bold {
   font-style: normal;
@@ -858,9 +871,10 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
+  padding-bottom: 0.8438rem;
 }
 .footer-menu-wrapper:last-child {
-  margin-left: 5rem;
+  margin-left: 10.5rem;
 }
 
 .footer-wrapper,
@@ -872,7 +886,7 @@ body {
 }
 
 .footer-wrapper {
-  padding-top: 1.25rem;
+  padding-top: 0;
   padding-bottom: 1.25rem;
   font-style: normal;
   color: #828a99;
@@ -884,6 +898,16 @@ body {
   font-size: 0.75rem;
   line-height: 160%;
   color: inherit;
+}
+.made-in {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: right;
+  color: #828a99;
+  padding-bottom: 0.3125rem;
+  padding-right: 0.4125rem;
 }
 
 @media (max-width: 1700px) {
