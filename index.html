@@ -139,7 +139,7 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button">
+      <button class="navbar-button button" data-toggle="modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
@@ -828,28 +828,42 @@
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
-        <p class="model-text">
+        <p class="modal-text">
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
         <form action="" class="form-modal">
-          <div class="input-group-wrapper">
-            <div class="input-group">
-              <input id="user-name" type="text" class="input" placeholder=" " />
-              <label class="input-group-label" for="user-name">Имя</label>
-            </div>
-            <!-- /.input-group -->
-            <div class="input-group">
-              <input id="user-phone" type="tel" class="input" placeholder=" " />
-              <label class="input-group-label" for="user-phone"
-                >Номер телефона</label
+          <div class="input-group-wrapper input-group-vcertical">
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-name"
+                type="text"
+                class="input modal-input"
+                placeholder=" "
+              />
+              <label class="input-group-label modal-input-label" for="user-name"
+                >Имя</label
               >
             </div>
             <!-- /.input-group -->
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-phone"
+                type="tel"
+                class="input modal-input"
+                placeholder=" "
+              />
+              <label
+                class="input-group-label modal-input-label"
+                for="user-phone"
+                >Номер телефона</label
+              >
+            </div>
+            <!-- /.input-group-wrapper -->
           </div>
-          <div class="cta-form-footer">
-            <button type="submit" class="button cta-form-button">
+          <div class="modal-form-footer">
+            <button type="submit" class="button modal-form-button">
               Отправить заявку
             </button>
             <div class="notify">
@@ -862,7 +876,7 @@
               </p>
             </div>
           </div>
-          <!-- /.input-group-wrapper -->
+          <!-- /.modal-form-footer  -->
         </form>
       </div>
     </div>
