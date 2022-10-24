@@ -149,7 +149,7 @@ const swiperResearch = new Swiper(".research-slider", {
 
 const swiperAvtohim = new Swiper(".avtohim-slider", {
   speed: 400,
-  slidesPerView: 3,
+  slidesPerView: 1,
   navigation: {
     nextEl: ".avtohim-button-next",
     prevEl: ".avtohim-button-prev",
@@ -160,13 +160,12 @@ const swiperAvtohim = new Swiper(".avtohim-slider", {
   breakpoints: {
     // when window width is >= 576px
     576: {
-      slidesPerView: 1,
       initialSlide: 1,
       slidesOffsetBefore: 0,
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     // when window width is >= 1024px
     1024: {
