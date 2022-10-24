@@ -1355,6 +1355,26 @@ body {
   padding: 0.9375rem 1.25rem;
 }
 
+.policy-container .policy-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #292d33;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.3rem;
+}
+
+.pilicy-content {
+  margin-top: 0;
+  margin-bottom: 8.2rem;
+}
+
+.policy-container {
+  margin-top: 6.25rem;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
