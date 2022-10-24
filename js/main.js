@@ -147,6 +147,38 @@ const swiperResearch = new Swiper(".research-slider", {
   },
 });
 
+const swiperAvtohim = new Swiper(".avtohim-slider", {
+  speed: 400,
+  slidesPerView: 3,
+  navigation: {
+    nextEl: ".avtohim-button-next",
+    prevEl: ".avtohim-button-prev",
+  },
+  spaceBetween: 30,
+  slidesOffsetBefore: 100,
+  initialSlide: 3,
+  breakpoints: {
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+      initialSlide: 1,
+      slidesOffsetBefore: 0,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 3,
+    },
+  },
+});
+
 const modal = document.querySelector(".modal");
 const modalDialog = document.querySelector(".modal-dialog");
 
