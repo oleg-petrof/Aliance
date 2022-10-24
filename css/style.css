@@ -1130,6 +1130,61 @@ body {
   justify-content: space-between;
 }
 
+.founder-about {
+  margin-bottom: 9.2rem;
+}
+
+.research-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4.6188rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 3.9rem;
+}
+.research .research-title {
+  margin-bottom: 0.7rem;
+}
+
+.research .blog-slider-footer {
+  justify-content: flex-end;
+}
+
+.contract {
+  margin-top: 6.25rem;
+  margin-bottom: 5.5rem;
+}
+.seo {
+  margin: 5.875rem 0;
+}
+.seo-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.seo-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+}
+.seo-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.seo-button {
+  text-decoration: none;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -1268,7 +1323,9 @@ body {
   .navbar-light .mobile-menu-line {
     background: #292d33;
   }
-
+  .mobile-menu-toggle {
+    height: 5.7rem;
+  }
   .mobile-menu-line {
     height: 1px;
     background-color: #fff;
@@ -1471,6 +1528,9 @@ body {
   }
   .experts-content-wrapper {
     justify-content: center;
+  }
+  .research-text:nth-child(2) {
+    display: none;
   }
 }
 
@@ -1973,5 +2033,11 @@ body {
     font-size: 14px;
     line-height: 160%;
     color: #828a99;
+  }
+  .seo-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
   }
 }
