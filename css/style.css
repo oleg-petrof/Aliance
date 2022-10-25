@@ -144,9 +144,7 @@ body {
   transform: scaleX(0);
   transition: transform 0.2s;
 }
-.header-nav-link:hover::after {
-  transform: scaleX(1);
-}
+
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -173,9 +171,7 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
-.button:hover {
-  background: #3a71d1;
-}
+
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
@@ -348,9 +344,6 @@ body {
   margin-right: 1.25rem;
   transition: width 0.2s;
 }
-.button-link:hover:before {
-  width: 60px;
-}
 
 .primary-buttons-wrapper {
   display: flex;
@@ -390,12 +383,7 @@ body {
   text-decoration: none;
   transition: border 0.2s;
 }
-.card:hover .card-title {
-  color: #5c8ee5;
-}
-.card:hover {
-  border: 1px solid #5c8ee5;
-}
+
 .card-content {
   padding: 2.5rem 3.125rem;
 }
@@ -476,18 +464,7 @@ body {
   line-height: 160%;
   color: #828a99;
 }
-.trademark-card:hover {
-  border: 1px solid #5c8ee5;
-  cursor: pointer;
-}
 
-.trademark-card:hover .trademark-card-logo {
-  fill: #5c8ee5;
-}
-
-.trademark-card:hover .trademark-card-title {
-  color: #5c8ee5;
-}
 .founder {
   position: relative;
   min-height: 41.25rem;
@@ -611,10 +588,7 @@ body {
   transition: filter 0.2s;
   transition: -webkit-filter 0.2s;
 }
-.clients-logo:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-}
+
 .blog {
   margin-top: 0;
 }
@@ -871,6 +845,7 @@ body {
   color: #ebebf0;
   background-color: #ebebf0;
   margin: none;
+  height: 0.9px;
 }
 .footer-bottom {
   padding-top: 2.525rem;
@@ -909,11 +884,7 @@ body {
   display: block;
   margin-bottom: 1.075rem;
 }
-.footer-menu-link:hover {
-  text-decoration: underline;
-  color: #5c8ee6;
-  transition: color 0.2s;
-}
+
 .footer-menu-link-bold {
   font-style: normal;
   font-weight: 600;
@@ -947,10 +918,6 @@ body {
   font-size: 0.75rem;
   line-height: 160%;
   color: inherit;
-}
-
-.footer-policy:hover {
-  color: #5c8ee5;
 }
 
 .made-in {
@@ -1389,11 +1356,7 @@ body {
   border: 1px solid rgba(92, 142, 229, 0);
   transition: border 0.2s, color 0.2s;
 }
-.page-number:hover {
-  border: 1px solid #5c8ee5;
-  color: #5c8ee5;
-  padding: 0.9375rem 1.15rem;
-}
+
 .page-number-active {
   border: 1px solid #5c8ee5;
   color: #5c8ee5;
@@ -1603,9 +1566,7 @@ h3 {
 .share-icon-active {
   border: 1px solid #5c8ee6;
 }
-.share-icon:hover {
-  border: 1px solid #5c8ee6;
-}
+
 .modal .modal-image {
   margin-top: 1rem;
   width: 100%;
@@ -1999,6 +1960,64 @@ h3 {
   }
   .article-conrent {
     width: 41.5rem;
+  }
+}
+
+@media (hover: hover) {
+  .header-nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  .share-icon:hover {
+    border: 1px solid #5c8ee6;
+  }
+
+  .page-number:hover {
+    border: 1px solid #5c8ee5;
+    color: #5c8ee5;
+    padding: 0.9375rem 1.15rem;
+  }
+
+  .footer-menu-link:hover {
+    text-decoration: underline;
+    color: #5c8ee6;
+    transition: color 0.2s;
+  }
+
+  .footer-policy:hover {
+    color: #5c8ee5;
+  }
+
+  .button:hover {
+    background: #3a71d1;
+  }
+
+  .clients-logo:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+  .button-link:hover:before {
+    width: 60px;
+  }
+  .card:hover .card-title {
+    color: #5c8ee5;
+  }
+  .trademark-card:hover {
+    border: 1px solid #5c8ee5;
+    cursor: pointer;
+  }
+  .card:hover .card-title {
+    color: #5c8ee5;
+  }
+  .card:hover {
+    border: 1px solid #5c8ee5;
+  }
+
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5c8ee5;
+  }
+
+  .trademark-card:hover .trademark-card-title {
+    color: #5c8ee5;
   }
 }
 

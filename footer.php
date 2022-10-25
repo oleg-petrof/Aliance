@@ -1,10 +1,10 @@
 <section class="cta">
       <div class="bg-grey section-cta">
 
-<picture  alt="call to action" class="cta-image">
+<picture    class="cta-image">
   <source type="image/webp" srcset="img/cta.webp">
   <source type="image/jpeg" srcset="img/cta.png">
-  <img src="img/cta.png"  />
+  <img src="img/cta.png" alt="call to action"   />
 </picture>
 
         
@@ -96,7 +96,7 @@
                 <use href="img/sprite.svg#vk"></use>
               </svg>
             </a>
-            <a href="#" class="footer-cosial-link">
+            <a href="#" class="footer-cosial-link" >
               <svg class="footer-social-icon" width="24" height="24">
                 <use href="img/sprite.svg#instagram"></use>
               </svg>
@@ -106,7 +106,8 @@
         </div>
         <!-- /.footer-top -->
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      
+      <div class="footer-seporator"></div>
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -116,19 +117,19 @@
                 <a href="./autohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link" alt="Авто">Бытовая химия</a>
+                <a href="#" class="footer-menu-link" >Бытовая химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link" alt="Авто">Дезинфицирующие средства</a>
+                <a href="#" class="footer-menu-link" >Дезинфицирующие средства</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link" alt="Авто">Пищевые аэрозоли</a>
+                <a href="#" class="footer-menu-link" >Пищевые аэрозоли</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link" alt="Авто">Косметическая продукция</a>
+                <a href="#" class="footer-menu-link" >Косметическая продукция</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link" alt="Авто">Краски аэрозольные</a>
+                <a href="#" class="footer-menu-link" >Краски аэрозольные</a>
               </li>
             </ul>
           </div>
@@ -158,7 +159,7 @@
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="#"  class="footer-menu-link footer-menu-link-bold"
                   >Контакты</a
                 >
               </li>
@@ -169,7 +170,7 @@
         <!-- /.footer-bottom -->
       </div>
       <!-- /.container -->
-      <hr color="#ebebf0" class="footer-seporator" />
+      <div class="footer-seporator"> </div>
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-legal">
