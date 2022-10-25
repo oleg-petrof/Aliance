@@ -249,18 +249,23 @@
     </div>
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
-        <h2 class="modal-title">Спасибо!</h2>
+        <img src="/img/thanks.jpg" alt="thank-you" class="modal-image">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
         <p class="modal-text">
-          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-          ответит на все интересующие вопросы и поможем даже в самых сложных
-          случаях!
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
+        <div class="cta-form-footer">
+              <a href="/index.php"  class="button cta-form-button tnx-button" data-toggle="modal" data-target="#alert-modal">
+              Вернуться на главную
+              </a>
+            </div>
       </div>
+      
     </div>
     <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>

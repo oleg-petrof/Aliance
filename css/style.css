@@ -1589,6 +1589,15 @@ h3 {
 .share-icon:hover {
   border: 1px solid #5c8ee6;
 }
+.modal .modal-image {
+  margin-top: 1rem;
+}
+
+.modal .tnx-button {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
 
 /*--------------------------------------- Media Quares-------------------------------------- */
 
