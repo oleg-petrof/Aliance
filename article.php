@@ -25,18 +25,18 @@
     </title>
   </head>
   <body>
-    <div class="mobile-menu">
+  <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="/about.html" class="mobile-menu-link">О компании</a>
+          <a href="./about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="/contract.html" class="mobile-menu-link"
+          <a href="./contract.php" class="mobile-menu-link"
             >Контрактное производство</a
           >
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="/autohim.html" class="mobile-submenu-link"
+              <a href="./autohim.php" class="mobile-submenu-link"
                 >Автомобильная химия</a
               >
             </li>
@@ -62,21 +62,21 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./products.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AG-Tech</a>
+              <a href="./autohim.php" class="mobile-submenu-link">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AP</a>
+              <a href="./autohim.php" class="mobile-submenu-link">Автохимия AP</a>
             </li>
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Новости</a>
+          <a href="./news.php" class="mobile-menu-link">Новости</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Контакты</a>
+          <a href="#" class="mobile-menu-link">Контакты</a>
         </li>
       </ul>
       <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
@@ -172,13 +172,13 @@
             Современная методология разработки одухотворила всех причастных
           </h1>
           <div class="main-title-content">
-            <a href="/index.html" class="main-title-link grey-link">Главная</a>
+            <a href="./index.php" class="main-title-link grey-link">Главная</a>
             <div class="main-title-separator"></div>
-            <a href="/contract.html" class="main-title-link black-link">
+            <a href="./news.php" class="main-title-link black-link">
               Блог
             </a>
             <div class="main-title-separator"></div>
-            <a href="/about.html" class="main-title-link black-link">
+            <a href="./article.php" class="main-title-link black-link">
               Современная методология разработки одухотворила всех причастных</a
             >
           </div>

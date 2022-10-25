@@ -23,7 +23,7 @@
     <title>Автомобильная химия - Aliance Production</title>
   </head>
   <body class="avtohim-body">
-    <div class="mobile-menu">
+  <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
           <a href="./about.php" class="mobile-menu-link">О компании</a>
@@ -63,18 +63,18 @@
           <a href="./products.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AG-Tech</a>
+              <a href="./autohim.php" class="mobile-submenu-link">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AP</a>
+              <a href="./autohim.php" class="mobile-submenu-link">Автохимия AP</a>
             </li>
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Новости</a>
+          <a href="./news.php" class="mobile-menu-link">Новости</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Контакты</a>
+          <a href="#" class="mobile-menu-link">Контакты</a>
         </li>
       </ul>
       <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
@@ -125,21 +125,23 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.html" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contract.html" class="header-nav-link"
+          <a href="./contract.php" class="header-nav-link"
             >Контрактное производство</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./products.php" class="header-nav-link"
+            >Собственные торговые марки</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Новости</a>
+          <a href="./news.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Контакты</a>
+          <a href="#" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -151,13 +153,15 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
         <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
+    <!-- /.navbar -->
+
     <section class="main-title">
       <div class="main-title-bg avtohim-title">
         <div class="container">
@@ -166,15 +170,15 @@
               <div class="seporator"></div>
               <h1 class="header-title">Автомобильная химия</h1>
               <div class="main-title-content">
-                <a href="/index.html" class="main-title-link grey-link"
+                <a href="./index.php" class="main-title-link grey-link"
                   >Главная</a
                 >
                 <div class="main-title-separator"></div>
-                <a href="/contract.html" class="main-title-link black-link">
+                <a href="./contract.php" class="main-title-link black-link">
                   Контрактное производство
                 </a>
                 <div class="main-title-separator"></div>
-                <a href="/contract.html" class="main-title-link black-link">
+                <a href="./autohim.php" class="main-title-link black-link">
                   Автомобильная химия
                 </a>
               </div>
