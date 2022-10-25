@@ -17,7 +17,7 @@
                   class="input"
                   name="username"
                   placeholder=" "
-                  required
+                  
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -26,10 +26,10 @@
                 <input
                   id="user-phone"
                   type="tel"
-                  class="input"
+                  class="input phone-mask"
                   name="userphone"
                   placeholder=" "
-                  required
+                
                 />
                 <label class="input-group-label" for="user-phone"
                   >Номер телефона</label
@@ -184,10 +184,11 @@
       <!-- /.conteiner -->
     </footer>
     <!-- /.footer -->
-    <div class="modal">
+
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="" class="modal-close" data-toggle="modal">
+        <a href="" class="modal-close" data-toggle="modal"  data-target="#feedback-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -197,13 +198,14 @@
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <form action="" class="form-modal">
+        <form action="handler.php" method="POST" class="form-modal">
           <div class="input-group-wrapper input-group-vcertical">
             <div class="input-group modal-input-group">
               <input
                 id="modal-user-name"
                 type="text"
                 class="input modal-input"
+                name="username"
                 placeholder=" "
               />
               <label class="input-group-label modal-input-label" for="user-name"
@@ -215,8 +217,9 @@
               <input
                 id="modal-user-phone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 placeholder=" "
+                name="userphone"
               />
               <label
                 class="input-group-label modal-input-label"
@@ -244,8 +247,24 @@
         </form>
       </div>
     </div>
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Спасибо!</h2>
+        <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          <svg class="close-icon" width="24" height="24">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+          ответит на все интересующие вопросы и поможем даже в самых сложных
+          случаях!
+        </p>
+      </div>
+    </div>
     <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
