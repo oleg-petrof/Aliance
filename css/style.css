@@ -909,6 +909,11 @@ body {
   display: block;
   margin-bottom: 1.075rem;
 }
+.footer-menu-link:hover {
+  text-decoration: underline;
+  color: #5c8ee6;
+  transition: color 0.2s;
+}
 .footer-menu-link-bold {
   font-style: normal;
   font-weight: 600;
@@ -943,6 +948,11 @@ body {
   line-height: 160%;
   color: inherit;
 }
+
+.footer-policy:hover {
+  color: #5c8ee5;
+}
+
 .made-in {
   font-style: normal;
   font-weight: 400;
@@ -1411,7 +1421,7 @@ body {
 }
 
 .main-title-bg-img {
-  background-image: url(/img/article-bg-title.jpg);
+  background-image: url(../img/article-bg-title.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;

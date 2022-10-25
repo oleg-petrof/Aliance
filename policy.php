@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <?php include_once('favicon.php') ?>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
     <title>Политика конфиденциальности - Aliance Production</title>
   </head>
   <body class="policy">
@@ -119,23 +125,23 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.html" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contract.html" class="header-nav-link"
+          <a href="./contract.php" class="header-nav-link"
             >Контрактное производство</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="/products.html" class="header-nav-link"
+          <a href="./products.php" class="header-nav-link"
             >Собственные торговые марки</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="/news.html" class="header-nav-link">Новости</a>
+          <a href="./news.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Контакты</a>
+          <a href="#" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -147,7 +153,7 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
@@ -155,6 +161,7 @@
       </button>
     </nav>
     <!-- /.navbar -->
+
 
     <section class="main-title">
       <div class="main-title-bg">

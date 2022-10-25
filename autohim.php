@@ -13,22 +13,28 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <?php include_once('favicon.php') ?>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
     <title>Автомобильная химия - Aliance Production</title>
   </head>
   <body class="avtohim-body">
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="/about.html" class="mobile-menu-link">О компании</a>
+          <a href="./about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="/contract.html" class="mobile-menu-link"
+          <a href="./contract.php" class="mobile-menu-link"
             >Контрактное производство</a
           >
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="/autohim.html" class="mobile-submenu-link"
+              <a href="./autohim.php" class="mobile-submenu-link"
                 >Автомобильная химия</a
               >
             </li>
@@ -54,7 +60,7 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./products.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a href="#" class="mobile-submenu-link">Автохимия AG-Tech</a>

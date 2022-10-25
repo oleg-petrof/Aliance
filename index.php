@@ -7,7 +7,15 @@
     
     <link rel="stylesheet" href="css/style.css" />
     
-    <?php include_once('favicon.php')?>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    
     <script>
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-emoji-setclasses !*/
@@ -316,7 +324,7 @@
     <picture class="card-image">
        <source type="image/webp" srcset="img/avto-him.webp">
         <source type="image/jpeg" srcset="img/avto-him.png">
-       <img src="img/avto-him.png" >
+       <img src="img/avto-him.png" alt="avto-him" class="card-image" >
     </picture>
 
           </a>
@@ -334,7 +342,7 @@
             <picture class="card-image">
        <source type="image/webp" srcset="img/bit-him.webp">
         <source type="image/jpeg" srcset="img/bit-him.png">
-       <img src="img/bit-him.png" >
+       <img src="img/bit-him.png" alt="Бытовая химия" class="card-image" >
     </picture>
             
           </a>
@@ -351,7 +359,7 @@
             <picture class="card-image">
        <source type="image/webp" srcset="img/dezinfect.webp">
         <source type="image/jpeg" srcset="img/dezinfect.png">
-       <img src="img/dezinfect.png" >
+       <img src="img/dezinfect.png" alt="dezinfect"  class="card-image" >
     </picture>
 
 
@@ -370,7 +378,7 @@
             <picture class="card-image">
        <source type="image/webp" srcset="img/dezinfect.webp">
         <source type="image/jpeg" srcset="img/dezinfect.png">
-       <img src="img/dezinfect.png" >
+       <img src="img/dezinfect.png" alt="dezinfect" class="card-image" >
     </picture>
           </a>
           <a href="#" class="card">
@@ -385,7 +393,7 @@
             <picture class="card-image">
        <source type="image/webp" srcset="img/avto-him.webp">
         <source type="image/jpeg" srcset="img/avto-him.png">
-       <img src="img/avto-him.png" >
+       <img src="img/avto-him.png" alt="avto-him" class="card-image">
     </picture>
           </a>
           <a href="#" class="card">
@@ -401,7 +409,7 @@
             <picture class="card-image">
        <source type="image/webp" srcset="img/bit-him.webp">
         <source type="image/jpeg" srcset="img/bit-him.png">
-       <img src="img/bit-him.png" >
+       <img src="img/bit-him.png" alt="Бытовая химия"  class="card-image">
     </picture>
           </a>
         </div>
@@ -440,11 +448,9 @@
     </section>
     <section class="section founder">
 
-    <picture class="founder-photo" class="founder-photo">
-      <source type="image/webp" srcset="img/founder.webp">
-      <source type="image/jpeg" srcset="img/founder.jpg">
-    <img src="img/founder.jpg" >
-    </picture>
+
+    <img src="img/founder.jpg"  alt="Основатель" class="founder-photo">
+
     
       <div class="container">
         <div class="founder-content-wrapper">
@@ -556,31 +562,31 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
             <a href="#" class="clients-logo-item">
-              <img src="img/client.png" alt="" class="clients-logo" />
+              <img src="img/client.png" alt="Клиенты" class="clients-logo" />
             </a>
           </div>
           <!-- /.clients-logo -->
@@ -602,7 +608,7 @@
             <picture  class="blog-card-image">
   <source type="image/webp" srcset="img/blog-card-image1.webp">
   <source type="image/jpeg" srcset="img/blog-card-image1.jpg">
-  <img src="img/blog-card-image1.jpg" />
+  <img src="img/blog-card-image1.jpg" alt="эксперты" class="blog-card-image"/>
 </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
@@ -618,7 +624,7 @@
             <picture  class="blog-card-image">
   <source type="image/webp" srcset="img/blog-card-image2.webp">
   <source type="image/jpeg" srcset="img/blog-card-image2.jpg">
-  <img src="img/blog-card-image2.jpg" />
+  <img src="img/blog-card-image2.jpg" alt="эксперты" class="blog-card-image" />
 </picture>
             
 
@@ -626,7 +632,7 @@
 
               <img
                 src="img/blog-card-image2.jpg"
-                alt=""
+                alt="Сложно"
                 class="blog-card-image"
               />
               <h3 class="blog-card-title">
@@ -641,7 +647,7 @@
             <a href="#" class="swiper-slide blog-card">
               <img
                 src="img/blog-card-image1.jpg"
-                alt=""
+                alt="Сложно"
                 class="blog-card-image"
               />
               <h3 class="blog-card-title">
@@ -676,5 +682,4 @@
       </div>
       <!-- /.container -->
     </section>
-    
 <?php include_once('footer.php') ?>
