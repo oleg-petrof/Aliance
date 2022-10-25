@@ -8,6 +8,7 @@ html {
   font-family: "Bebas Neue Regular";
   src: url("../fonts/BebasNeueRegular.woff") format("woff");
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 
@@ -73,7 +74,7 @@ body {
 }
 
 .header-image {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -2.875rem;
