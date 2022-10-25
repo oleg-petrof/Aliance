@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>
-      Современная методология разработки одухотворила всех причастных
-    </title>
+    <?php include_once('favicon.php') ?>
+    <title>Блог - Aliance Production</title>
   </head>
-  <body>
+  <body class="section-news">
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
@@ -153,261 +152,171 @@
         <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
-    <section class="main-title article-titile-section">
-      <div class="main-title-bg main-title-bg-img">
+    <section class="main-title">
+      <div class="main-title-bg">
         <div class="container">
           <div class="seporator"></div>
-          <h1 class="header-title">
-            Современная методология разработки одухотворила всех причастных
-          </h1>
+          <h1 class="header-title">Блог</h1>
           <div class="main-title-content">
             <a href="/index.html" class="main-title-link grey-link">Главная</a>
             <div class="main-title-separator"></div>
-            <a href="/contract.html" class="main-title-link black-link">
-              Блог
-            </a>
-            <div class="main-title-separator"></div>
-            <a href="/about.html" class="main-title-link black-link">
-              Современная методология разработки одухотворила всех причастных</a
-            >
+            <a href="/about.html" class="main-title-link black-link"> Блог</a>
           </div>
           <!-- /.main-title-content -->
         </div>
       </div>
       <!-- /.main-title-bg -->
     </section>
-    <section class="section article">
+    <section class="section news">
       <div class="container">
-        <div class="article-wrapper">
-          <div class="share-wrapper">
-            <div class="share-text">Поделиться:</div>
-            <div class="share-icon-wrapper">
-              <a href="#" class="share-icon">
-                <svg width="24" height="24">
-                  <use href="img/sprite.svg#vk"></use>
-                </svg>
-              </a>
-              <a href="#" class="share-icon share-icon-active">
-                <svg width="24" height="24">
-                  <use href="img/sprite.svg#fb"></use>
-                </svg>
-              </a>
-              <a href="#" class="share-icon">
-                <svg width="24" height="24">
-                  <use href="img/sprite.svg#tw"></use>
-                </svg>
-              </a>
-              <a href="#" class="share-icon">
-                <svg width="24" height="24">
-                  <use href="img/sprite.svg#gog"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <article class="article-conrent">
-            <h2 class="article-title">
-              Реализация намеченных плановых заданий
-            </h2>
-            <p class="article-text">
-              Значимость этих проблем настолько очевидна, что постоянное
-              информационно-пропагандистское обеспечение нашей деятельности
-              позволяет оценить значение системы обучения кадров, соответствует
-              насущным потребностям. Задача организации, в особенности же
-              укрепление и развитие структуры в значительной степени
-              обуславливает создание форм развития. С другой стороны укрепление
-              и развитие структуры способствует подготовки и реализации системы
-              обучения кадров, соответствует насущным потребностям. Повседневная
-              практика показывает, что укрепление и развитие структуры требуют
-              определения и уточнения систем массового участия. Таким образом
-              начало повседневной работы по формированию позиции позволяет
-              выполнять важные задания по разработке позиций, занимаемых
-              участниками в отношении поставленных задач.
-            </p>
-            <h3 class="article-subtitle">
-              Равным образом консультация с широким активом
-            </h3>
-            <p class="article-text">
-              Таким образом постоянный количественный рост и сфера нашей
-              активности позволяет оценить значение дальнейших направлений
-              развития. Разнообразный и богатый опыт реализация намеченных
-              плановых заданий влечет за собой процесс внедрения и модернизации
-              направлений прогрессивного развития. С другой стороны консультация
-              с широким активом позволяет оценить значение форм развития.
-              Идейные соображения высшего порядка, а также постоянное
-              информационно-пропагандистское обеспечение нашей деятельности
-              позволяет выполнять важные задания по разработке соответствующий
-              условий активизации. Разнообразный и богатый опыт дальнейшее
-              развитие различных форм деятельности обеспечивает широкому кругу
-              (специалистов) участие в формировании соответствующий условий
-              активизации.
-            </p>
-            <p class="article-text">
-              С другой стороны рамки и место обучения кадров влечет за собой
-              процесс внедрения и модернизации систем массового участия. Равным
-              образом консультация с широким активом в значительной степени
-              обуславливает создание дальнейших направлений развития. Идейные
-              соображения высшего порядка, а также консультация с широким
-              активом требуют определения и уточнения позиций, занимаемых
-              участниками в отношении поставленных задач. Равным образом
-              дальнейшее развитие различных форм деятельности влечет за собой
-              процесс внедрения и модернизации дальнейших направлений развития.
-            </p>
-            <p class="article-text">
-              Разнообразный и богатый опыт начало повседневной работы по
-              формированию позиции позволяет оценить значение позиций,
-              занимаемых участниками в отношении поставленных задач.
-              Разнообразный и богатый опыт реализация намеченных плановых
-              заданий позволяет выполнять важные задания по разработке форм
-              развития. Задача организации, в особенности же постоянный
-              количественный рост и сфера нашей активности обеспечивает широкому
-              кругу (специалистов) участие в формировании форм развития.
-            </p>
-            <img
-              src="img/article-img.png"
-              alt="лаборатория"
-              class="article-img"
-            />
-            <h3>Равным образом консультация с широким активом:</h3>
-            <ul class="article-list">
-              <li class="article-item">
-                <div class="article-line"></div>
-                <p class="article-item-text">
-                  Идейные соображения высшего порядка, а также консультация с
-                  широким активом требуют определения и уточнения позиций.
-                </p>
-              </li>
-              <li class="article-item">
-                <div class="article-line"></div>
-                <p class="article-item-text">
-                  С другой стороны консультация с широким активом позволяет
-                  оценить значение форм развития..
-                </p>
-              </li>
-              <li class="article-item">
-                <div class="article-line"></div>
-                <p class="article-item-text">
-                  Разнообразный и богатый опыт реализация намеченных плановых
-                  заданий позволяет выполнять важные задания.
-                </p>
-              </li>
-            </ul>
-            <h3 class="article-subtitle article-subtitle-bottom">
-              Равным образом консультация с широким активом
-            </h3>
-            <p class="article-text">
-              С другой стороны рамки и место обучения кадров влечет за собой
-              процесс внедрения и модернизации систем массового участия. Равным
-              образом консультация с широким активом в значительной степени
-              обуславливает создание дальнейших направлений развития. Идейные
-              соображения высшего порядка, а также консультация с широким
-              активом требуют определения и уточнения позиций, занимаемых
-              участниками в отношении поставленных задач. Равным образом
-              дальнейшее развитие различных форм деятельности влечет за собой
-              процесс внедрения и модернизации дальнейших направлений развития.
-            </p>
-            <ul class="article-list-bottom">
-              <li class="article-item">
-                <p class="article-number">01.</p>
-                <p class="article-item-text">
-                  Идейные соображения высшего порядка, а также консультация с
-                  широким активом требуют определения и уточнения позиций.
-                </p>
-              </li>
-              <li class="article-item">
-                <p class="article-number">02.</p>
-                <p class="article-item-text">
-                  С другой стороны консультация с широким активом позволяет
-                  оценить значение форм развития..
-                </p>
-              </li>
-              <li class="article-item">
-                <p class="article-number">03.</p>
-                <p class="article-item-text">
-                  Разнообразный и богатый опыт реализация намеченных плановых
-                  заданий позволяет выполнять важные задания.
-                </p>
-              </li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-    <section class="section blog">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">Так же вас может заинтересовать:</h2>
-        <!-- Slider main container -->
-        <div class="swiper blog-slider">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <a href="#" class="swiper-slide blog-card">
+        <div class="news-cards-wrapper">
+          <div class="news-cards">
+            <a href="/article.html" class="news-card">
               <img
-                src="img/blog-card-image1.jpg"
-                alt=""
-                class="blog-card-image"
+                src="/img/blog-card-image1.jpg"
+                alt="Новости"
+                class="news-imgage"
               />
-              <h3 class="blog-card-title">
+              <h3 class="news-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
-              <p class="blog-card-text">
+              <p class="news-text">
                 Действия представителей оппозиции, превозмогая сложившуюся
                 непростую экономическую ситуацию, в равной степени
                 предоставлены...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="/article.html" class="news-card">
               <img
-                src="img/blog-card-image2.jpg"
-                alt=""
-                class="blog-card-image"
+                src="/img/blog-card-image2.jpg"
+                alt="Новости"
+                class="news-imgage"
               />
-              <h3 class="blog-card-title">
-                Сложно сказать, почему жизнь прекрасна
-              </h3>
-              <p class="blog-card-text">
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
                 Сложно сказать, почему элементы политического процесса
                 функционально разнесены на независимые элементы. Безусловно,
                 высокотехнологичная...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="/article.html" class="news-card">
               <img
-                src="img/blog-card-image1.jpg"
-                alt=""
-                class="blog-card-image"
+                src="/img/blog-card-image2.jpg"
+                alt="Новости"
+                class="news-imgage"
               />
-              <h3 class="blog-card-title">
+              <h3 class="news-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
-              <p class="blog-card-text">
+              <p class="news-text">
                 Действия представителей оппозиции, превозмогая сложившуюся
                 непростую экономическую ситуацию, в равной степени
                 предоставлены...
               </p>
             </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image1.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image1.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image2.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image2.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image1.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image1.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="/article.html" class="news-card">
+              <img
+                src="/img/blog-card-image2.jpg"
+                alt="Новости"
+                class="news-imgage"
+              />
+              <h3 class="news-title">Сложно сказать, почему жизнь прекрасна</h3>
+              <p class="news-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
           </div>
-
-          <div class="blog-slider-footer">
-            <a href="#" class="button-link">Весь блог</a>
-            <div class="blog-buttons primary-buttons-wrapper">
-              <div class="blog-button-prev primary-button-prev">
-                <svg width="36" height="24">
-                  <use href="img/sprite.svg#arrow-prev"></use>
-                </svg>
-              </div>
-              <div class="blog-button-next primary-button-next">
-                <svg width="36" height="24">
-                  <use href="img/sprite.svg#arrow-next"></use>
-                </svg>
-              </div>
-            </div>
-            <!-- /.blog-button -->
+        </div>
+        <div class="news-cards-pagination">
+          <div class="pages-number">
+            <a href="#" class="page-number page-number-active">1</a>
+            <a href="#" class="page-number">2</a>
+            <a href="#" class="page-number">3</a>
+            <a href="#" class="page-number">4</a>
+            <a href="#" class="page-number">5</a>
           </div>
-          <!-- /.blog-slider-footer -->
         </div>
       </div>
-      <!-- /.container -->
     </section>
     <section class="cta">
       <div class="bg-grey section-cta">

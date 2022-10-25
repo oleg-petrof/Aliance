@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <?php include_once('favicon.php') ?>
     <title>Контрактное производство - Aliance Production</title>
   </head>
   <body>

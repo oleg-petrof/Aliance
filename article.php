@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Собственные торговые марки - Aliance Production</title>
+    <?php include_once('favicon.php') ?>
+    <title>
+      Современная методология разработки одухотворила всех причастных
+    </title>
   </head>
   <body>
     <div class="mobile-menu">
@@ -151,16 +154,22 @@
         <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
-    <section class="main-title">
-      <div class="main-title-bg">
+    <section class="main-title article-titile-section">
+      <div class="main-title-bg main-title-bg-img">
         <div class="container">
           <div class="seporator"></div>
-          <h1 class="header-title">Собственные торговые марки</h1>
+          <h1 class="header-title">
+            Современная методология разработки одухотворила всех причастных
+          </h1>
           <div class="main-title-content">
             <a href="/index.html" class="main-title-link grey-link">Главная</a>
             <div class="main-title-separator"></div>
+            <a href="/contract.html" class="main-title-link black-link">
+              Блог
+            </a>
+            <div class="main-title-separator"></div>
             <a href="/about.html" class="main-title-link black-link">
-              Собственные торговые марки</a
+              Современная методология разработки одухотворила всех причастных</a
             >
           </div>
           <!-- /.main-title-content -->
@@ -168,34 +177,238 @@
       </div>
       <!-- /.main-title-bg -->
     </section>
-    <!-- /.main-title -->
-    <section class="section trademark">
+    <section class="section article">
       <div class="container">
-        <div class="trademark-cards">
-          <div class="trademark-card">
-            <svg class="trademark-card-logo">
-              <use href="img/sprite.svg#agtech"></use>
-            </svg>
-            <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
-            <p class="trademark-card-text">
-              Для современного мира разбавленное <br />
-              изрядной долей эмпатии, рациональное мышление создаёт предпосылки
-              для поставленных обществом задач.
-            </p>
+        <div class="article-wrapper">
+          <div class="share-wrapper">
+            <div class="share-text">Поделиться:</div>
+            <div class="share-icon-wrapper">
+              <a href="#" class="share-icon">
+                <svg width="24" height="24">
+                  <use href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+              <a href="#" class="share-icon share-icon-active">
+                <svg width="24" height="24">
+                  <use href="img/sprite.svg#fb"></use>
+                </svg>
+              </a>
+              <a href="#" class="share-icon">
+                <svg width="24" height="24">
+                  <use href="img/sprite.svg#tw"></use>
+                </svg>
+              </a>
+              <a href="#" class="share-icon">
+                <svg width="24" height="24">
+                  <use href="img/sprite.svg#gog"></use>
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="trademark-card">
-            <svg class="trademark-card-logo">
-              <use href="img/sprite.svg#alliance"></use>
-            </svg>
-            <h3 class="trademark-card-title">Автохимия AP</h3>
-            <p class="trademark-card-text">
-              Для современного мира разбавленное <br />
-              изрядной долей эмпатии, рациональное мышление создаёт предпосылки
-              для поставленных обществом задач.
+          <article class="article-conrent">
+            <h2 class="article-title">
+              Реализация намеченных плановых заданий
+            </h2>
+            <p class="article-text">
+              Значимость этих проблем настолько очевидна, что постоянное
+              информационно-пропагандистское обеспечение нашей деятельности
+              позволяет оценить значение системы обучения кадров, соответствует
+              насущным потребностям. Задача организации, в особенности же
+              укрепление и развитие структуры в значительной степени
+              обуславливает создание форм развития. С другой стороны укрепление
+              и развитие структуры способствует подготовки и реализации системы
+              обучения кадров, соответствует насущным потребностям. Повседневная
+              практика показывает, что укрепление и развитие структуры требуют
+              определения и уточнения систем массового участия. Таким образом
+              начало повседневной работы по формированию позиции позволяет
+              выполнять важные задания по разработке позиций, занимаемых
+              участниками в отношении поставленных задач.
             </p>
-          </div>
+            <h3 class="article-subtitle">
+              Равным образом консультация с широким активом
+            </h3>
+            <p class="article-text">
+              Таким образом постоянный количественный рост и сфера нашей
+              активности позволяет оценить значение дальнейших направлений
+              развития. Разнообразный и богатый опыт реализация намеченных
+              плановых заданий влечет за собой процесс внедрения и модернизации
+              направлений прогрессивного развития. С другой стороны консультация
+              с широким активом позволяет оценить значение форм развития.
+              Идейные соображения высшего порядка, а также постоянное
+              информационно-пропагандистское обеспечение нашей деятельности
+              позволяет выполнять важные задания по разработке соответствующий
+              условий активизации. Разнообразный и богатый опыт дальнейшее
+              развитие различных форм деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании соответствующий условий
+              активизации.
+            </p>
+            <p class="article-text">
+              С другой стороны рамки и место обучения кадров влечет за собой
+              процесс внедрения и модернизации систем массового участия. Равным
+              образом консультация с широким активом в значительной степени
+              обуславливает создание дальнейших направлений развития. Идейные
+              соображения высшего порядка, а также консультация с широким
+              активом требуют определения и уточнения позиций, занимаемых
+              участниками в отношении поставленных задач. Равным образом
+              дальнейшее развитие различных форм деятельности влечет за собой
+              процесс внедрения и модернизации дальнейших направлений развития.
+            </p>
+            <p class="article-text">
+              Разнообразный и богатый опыт начало повседневной работы по
+              формированию позиции позволяет оценить значение позиций,
+              занимаемых участниками в отношении поставленных задач.
+              Разнообразный и богатый опыт реализация намеченных плановых
+              заданий позволяет выполнять важные задания по разработке форм
+              развития. Задача организации, в особенности же постоянный
+              количественный рост и сфера нашей активности обеспечивает широкому
+              кругу (специалистов) участие в формировании форм развития.
+            </p>
+            <img
+              src="img/article-img.png"
+              alt="лаборатория"
+              class="article-img"
+            />
+            <h3>Равным образом консультация с широким активом:</h3>
+            <ul class="article-list">
+              <li class="article-item">
+                <div class="article-line"></div>
+                <p class="article-item-text">
+                  Идейные соображения высшего порядка, а также консультация с
+                  широким активом требуют определения и уточнения позиций.
+                </p>
+              </li>
+              <li class="article-item">
+                <div class="article-line"></div>
+                <p class="article-item-text">
+                  С другой стороны консультация с широким активом позволяет
+                  оценить значение форм развития..
+                </p>
+              </li>
+              <li class="article-item">
+                <div class="article-line"></div>
+                <p class="article-item-text">
+                  Разнообразный и богатый опыт реализация намеченных плановых
+                  заданий позволяет выполнять важные задания.
+                </p>
+              </li>
+            </ul>
+            <h3 class="article-subtitle article-subtitle-bottom">
+              Равным образом консультация с широким активом
+            </h3>
+            <p class="article-text">
+              С другой стороны рамки и место обучения кадров влечет за собой
+              процесс внедрения и модернизации систем массового участия. Равным
+              образом консультация с широким активом в значительной степени
+              обуславливает создание дальнейших направлений развития. Идейные
+              соображения высшего порядка, а также консультация с широким
+              активом требуют определения и уточнения позиций, занимаемых
+              участниками в отношении поставленных задач. Равным образом
+              дальнейшее развитие различных форм деятельности влечет за собой
+              процесс внедрения и модернизации дальнейших направлений развития.
+            </p>
+            <ul class="article-list-bottom">
+              <li class="article-item">
+                <p class="article-number">01.</p>
+                <p class="article-item-text">
+                  Идейные соображения высшего порядка, а также консультация с
+                  широким активом требуют определения и уточнения позиций.
+                </p>
+              </li>
+              <li class="article-item">
+                <p class="article-number">02.</p>
+                <p class="article-item-text">
+                  С другой стороны консультация с широким активом позволяет
+                  оценить значение форм развития..
+                </p>
+              </li>
+              <li class="article-item">
+                <p class="article-number">03.</p>
+                <p class="article-item-text">
+                  Разнообразный и богатый опыт реализация намеченных плановых
+                  заданий позволяет выполнять важные задания.
+                </p>
+              </li>
+            </ul>
+          </article>
         </div>
       </div>
+    </section>
+    <section class="section blog">
+      <div class="container">
+        <div class="seporator"></div>
+        <h2 class="section-title">Так же вас может заинтересовать:</h2>
+        <!-- Slider main container -->
+        <div class="swiper blog-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-card-image1.jpg"
+                alt=""
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Современная методология разработки одухотворила всех причастных
+              </h3>
+              <p class="blog-card-text">
+                Действия представителей оппозиции, превозмогая сложившуюся
+                непростую экономическую ситуацию, в равной степени
+                предоставлены...
+              </p>
+            </a>
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-card-image2.jpg"
+                alt=""
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Сложно сказать, почему жизнь прекрасна
+              </h3>
+              <p class="blog-card-text">
+                Сложно сказать, почему элементы политического процесса
+                функционально разнесены на независимые элементы. Безусловно,
+                высокотехнологичная...
+              </p>
+            </a>
+            <a href="#" class="swiper-slide blog-card">
+              <img
+                src="img/blog-card-image1.jpg"
+                alt=""
+                class="blog-card-image"
+              />
+              <h3 class="blog-card-title">
+                Современная методология разработки одухотворила всех причастных
+              </h3>
+              <p class="blog-card-text">
+                Действия представителей оппозиции, превозмогая сложившуюся
+                непростую экономическую ситуацию, в равной степени
+                предоставлены...
+              </p>
+            </a>
+          </div>
+
+          <div class="blog-slider-footer">
+            <a href="#" class="button-link">Весь блог</a>
+            <div class="blog-buttons primary-buttons-wrapper">
+              <div class="blog-button-prev primary-button-prev">
+                <svg width="36" height="24">
+                  <use href="img/sprite.svg#arrow-prev"></use>
+                </svg>
+              </div>
+              <div class="blog-button-next primary-button-next">
+                <svg width="36" height="24">
+                  <use href="img/sprite.svg#arrow-next"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- /.blog-button -->
+          </div>
+          <!-- /.blog-slider-footer -->
+        </div>
+      </div>
+      <!-- /.container -->
     </section>
     <section class="cta">
       <div class="bg-grey section-cta">
