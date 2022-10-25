@@ -21,15 +21,15 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="/about.html" class="mobile-menu-link">О компании</a>
+          <a href="./about.html" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="/contract.html" class="mobile-menu-link"
+          <a href="./contract.html" class="mobile-menu-link"
             >Контрактное производство</a
           >
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="/autohim.html" class="mobile-submenu-link"
+              <a href="./autohim.html" class="mobile-submenu-link"
                 >Автомобильная химия</a
               >
             </li>
@@ -55,18 +55,18 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./products.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AG-Tech</a>
+              <a href="" class="mobile-submenu-link">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автохимия AP</a>
+              <a href="./autohim.php" class="mobile-submenu-link">Автохимия AP</a>
             </li>
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="" class="mobile-menu-link">Новости</a>
+          <a href="./news.php" class="mobile-menu-link">Новости</a>
         </li>
         <li class="mobile-menu-nav-item">
           <a href="" class="mobile-menu-link">Контакты</a>
@@ -120,23 +120,23 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.php" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contract.html" class="header-nav-link"
+          <a href="./contract.php" class="header-nav-link"
             >Контрактное производство</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="/products.html" class="header-nav-link"
+          <a href="./products.php" class="header-nav-link"
             >Собственные торговые марки</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="/news.html" class="header-nav-link">Новости</a>
+          <a href="./news.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Контакты</a>
+          <a href="#" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -639,11 +639,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-            <picture  class="blog-card-image">
-  <source type="image/webp" srcset="img/blog-card-image1.webp">
-  <source type="image/jpeg" srcset="img/blog-card-image1.jpg">
-  <img src="img/blog-card-image1.jpg" />
-</picture>
+              <img
+                src="img/blog-card-image1.jpg"
+                alt=""
+                class="blog-card-image"
+              />
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
