@@ -1,3 +1,7 @@
+@import url("/css/normalize.css");
+@import url("swiper-bundle.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -72,7 +76,9 @@ body {
 .header {
   padding-top: 5.875rem;
 }
-
+.no-webp .header-image {
+  background-image: url("../img/header-bg.jpg");
+}
 .header-image {
   background-image: url("../img/header-bg.webp");
   background-size: cover;
@@ -1592,12 +1598,14 @@ h3 {
 }
 .modal .modal-image {
   margin-top: 1rem;
+  width: 100%;
 }
 
 .modal .tnx-button {
   width: 100%;
   text-align: center;
   text-decoration: none;
+  padding: 1.9rem 5rem;
 }
 
 /*--------------------------------------- Media Quares-------------------------------------- */
@@ -2001,12 +2009,11 @@ h3 {
     margin-bottom: 1rem;
   }
   .header-button {
-    padding: 1.6625rem 6.65rem;
+    padding: 1.6625rem 6.85rem;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 160%;
-    width: 100%;
     margin-top: 1.3875rem;
   }
   .header-features {
