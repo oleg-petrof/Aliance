@@ -10,10 +10,14 @@ html {
 }
 @font-face {
   font-family: "Bebas Neue Regular";
-  src: url("../fonts/BebasNeueRegular.woff") format("woff");
+  src: url("../fonts/BebasNeueRegular.eot");
+  src: url("../fonts/BebasNeueRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BebasNeueRegular.woff") format("woff"),
+    url("../fonts/BebasNeueRegular.woff") format("truetype");
+  font-weight: 400;
   font-weight: normal;
-  font-display: swap;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -981,7 +985,7 @@ body {
   border: 1px solid #ebebf0;
 }
 .modal-title {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 3rem;
